@@ -137,15 +137,15 @@ public class DoctorFragment extends Fragment {
             final String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
             NavigationView navView = getActivity().findViewById(R.id.nav_view);
             View headerView = navView.getHeaderView(0);
-            final TextView nameTvCheck = headerView.findViewById(R.id.userName);
-            final ImageView imageViewCheck = headerView.findViewById(R.id.logoHeader);
+            //final TextView nameTvCheck = headerView.findViewById(R.id.userName);
+            //final ImageView imageViewCheck = headerView.findViewById(R.id.logoHeader);
             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Users");
             ref.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     String nameCheck = dataSnapshot.child(userId).child("name").getValue(String.class);
-                    imageViewCheck.setImageResource(R.drawable.doctor);
-                    nameTvCheck.setText(nameCheck);
+                    //imageViewCheck.setImageResource(R.drawable.doctor);
+                    //nameTvCheck.setText(nameCheck);
                 }
 
                 @Override

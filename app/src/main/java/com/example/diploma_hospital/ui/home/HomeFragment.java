@@ -257,15 +257,15 @@ public class HomeFragment extends Fragment {
             nav_Menu.findItem(R.id.nav_login).setVisible(false);
             NavigationView navView = getActivity().findViewById(R.id.nav_view);
             View headerView = navView.getHeaderView(0);
-            name = headerView.findViewById(R.id.userName);
-            imageView = headerView.findViewById(R.id.logoHeader);
+            //name = headerView.findViewById(R.id.userName);
+            //imageView = headerView.findViewById(R.id.logoHeader);
             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Users");
             ref.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     String nameCheck = dataSnapshot.child(userId).child("name").getValue(String.class);
-                    imageView.setImageResource(R.drawable.user);
-                    name.setText(nameCheck);
+//                    imageView.setImageResource(R.drawable.user);
+          //          name.setText(nameCheck);
                     progressDialog.dismiss();
                 }
 

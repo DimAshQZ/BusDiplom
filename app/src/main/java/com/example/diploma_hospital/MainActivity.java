@@ -42,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
         NavigationView navView =  findViewById(R.id.nav_view);
         View headerView = navView.getHeaderView(0);
-        TextView nameCheck = headerView.findViewById(R.id.userName);
-        ImageView imageViewCheck = headerView.findViewById(R.id.logoHeader);
-        nameCheck.setText(getString(R.string.headerText));
-        imageViewCheck.setImageResource(R.drawable.heart_logo);
+        //TextView nameCheck = headerView.findViewById(R.id.userName);
+        //ImageView imageViewCheck = headerView.findViewById(R.id.logoHeader);
+        //nameCheck.setText(getString(R.string.headerText));
+        //imageViewCheck.setImageResource(R.drawable.heart_logo);
 
     }
 

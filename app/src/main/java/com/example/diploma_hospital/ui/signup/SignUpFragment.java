@@ -112,7 +112,7 @@ public class SignUpFragment extends Fragment {
                 } else if(!Objects.equals(checkPwd, pwd)){
                     confirm.setError("Пароли не совпадают!");
                     confirm.requestFocus();
-                }
+                }/*
                 else if (!(email.isEmpty() && pwd.isEmpty() && tempName.isEmpty() && num.isEmpty() && checkPwd.isEmpty()) && checkPwd.equals(pwd)) {
                     progressDialog.setMessage("Подождите, мы добавляем пользователя...");
                     progressDialog.show();
@@ -142,7 +142,7 @@ public class SignUpFragment extends Fragment {
                             }
                         }
                     });
-                } else {
+                }*/ else {
                     Toast.makeText(getContext(), "Ошибка соединения, обратитесь в сервис!", Toast.LENGTH_SHORT).show();
 
                 }

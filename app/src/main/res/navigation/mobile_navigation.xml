@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.diploma_hospital.ui.home.HomeFragment"
-        android:label="Запись к врачу"
+        android:label="Остановки"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_nav_home_to_nav_login"
@@ -37,7 +37,7 @@
     <fragment
         android:id="@+id/nav_doctor"
         android:name="com.example.diploma_hospital.ui.doctor.DoctorFragment"
-        android:label="Записи"
+        android:label="Страница водителя"
         tools:layout="@layout/doctor_fragment">
         <action
             android:id="@+id/action_nav_doctor_to_nav_login"
@@ -47,7 +47,7 @@
     <fragment
         android:id="@+id/nav_notes"
         android:name="com.example.diploma_hospital.ui.notes.NotesFragment"
-        android:label="Мои Записи"
+        android:label="Маршруты"
         tools:layout="@layout/notes_fragment">
         <action
             android:id="@+id/action_nav_notes_to_nav_login"

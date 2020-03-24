@@ -6,16 +6,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_doctor"
-            android:icon="@drawable/ic_event_note"
-            android:title="Записи"/>
+            android:icon="@drawable/ic_person"
+            android:title="Страница водителя"/>
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_border_color"
-            android:title="Запись к врачу" />
+            android:icon="@drawable/ic_directions_bus"
+            android:title="Остановки" />
         <item
             android:id="@+id/nav_notes"
-            android:icon="@drawable/ic_library_books"
-            android:title="Мои Записи"/>
+            android:icon="@drawable/ic_airport_shuttle"
+            android:title="Маршруты"/>
         <item
             android:id="@+id/nav_login"
             android:icon="@drawable/ic_lock_outline"

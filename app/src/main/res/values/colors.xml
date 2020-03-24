@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ea510e</color>
-    <color name="colorPrimaryDark">#ea4600</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#0F4DA8</color>
+    <color name="colorPrimaryDark">#052F6D</color>
+    <color name="colorAccent">#6A94D4</color>
+
+    <color name="color1">#0F4DA8</color>
+    <color name="color2">#284B7E</color>
+    <color name="color3">#052F6D</color>
+    <color name="color4">#437DD4</color>
+    <color name="color5">#6A94D4</color>
+
+    <color name="colorFirst1">#00A383</color>
+    <color name="colorFirst2">#1F7A68</color>
+    <color name="colorFirst3">#006A55</color>
+    <color name="colorFirst4">#34D1B2</color>
+    <color name="colorFirst5">#5ED1BA</color>
+
+    <color name="colorSecond1">#2E16B1</color>
+    <color name="colorSecond2">#3B2E84</color>
+    <color name="colorSecond3">#180773</color>
+    <color name="colorSecond4">#604BD8</color>
+    <color name="colorSecond5">#8070D8</color>
+
+    <color name="colorThird1">#FFA100</color>
+    <color name="colorThird2">#BF8A30</color>
+    <color name="colorThird3">#A66900</color>
+    <color name="colorThird4">#FFB840</color>
+    <color name="colorThird5">#FFCB73</color>
+
     <color name="facebookBlue">#3F5996</color>
     <color name="twitterBlue">#29C5F6</color>
     <color name="googleRed">#D03E2F</color>

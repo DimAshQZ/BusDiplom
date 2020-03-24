@@ -72,6 +72,7 @@ public class LoginFragment extends Fragment {
         password = getView().findViewById(R.id.password);
         btnSignIn = getView().findViewById(R.id.signIn);
         tvSignUp = getView().findViewById(R.id.tvSignUp);
+        tvSignUp.setVisibility(View.INVISIBLE);
         progressDialog = new ProgressDialog(getContext());
 
         tvSignUp.setOnClickListener(new View.OnClickListener() {
@@ -150,10 +151,10 @@ public class LoginFragment extends Fragment {
         Menu nav_Menu = navigationView.getMenu();
         NavigationView navView = getActivity().findViewById(R.id.nav_view);
         View headerView = navView.getHeaderView(0);
-        TextView nameCheck = headerView.findViewById(R.id.userName);
-        ImageView imageViewCheck = headerView.findViewById(R.id.logoHeader);
-        nameCheck.setText(getString(R.string.headerText));
-        imageViewCheck.setImageResource(R.drawable.heart_logo);
+        //TextView nameCheck = headerView.findViewById(R.id.userName);
+        //ImageView imageViewCheck = headerView.findViewById(R.id.logoHeader);
+        //nameCheck.setText(getString(R.string.headerText));
+        //imageViewCheck.setImageResource(R.drawable.heart_logo);
         nav_Menu.findItem(R.id.nav_doctor).setVisible(false);
         nav_Menu.findItem(R.id.nav_logout).setVisible(false);
         nav_Menu.findItem(R.id.nav_login).setVisible(true);
